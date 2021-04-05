@@ -13,6 +13,12 @@
 	url(../fonts/BTITRBD.woff) format('woff'),
 	url(../fonts/BTITRBD.ttf) format('truetype');
 }
+@font-face{
+	font-family: "Bkoodak";
+	src:url(../fonts/BKOODB.eot) format('eot'),
+		url(../fonts/BKOODB.woff) format('woff'),
+		url(../fonts/BKOODB.ttf) format('truetype');
+}
 body {
   direction: rtl;
   text-align: right !important;
@@ -68,12 +74,14 @@ ul{
 }
 
 .sar-titr{
+ 
   color: black;
   text-align: center;
   font-family:Btitr;
   font-size: 35px;
-  margin-top:23px;
+  margin-top:40px;
 }
+
 .back-container{
   width: 100%;
   height: 100%;
@@ -181,7 +189,7 @@ ul{
     color: #000;
     text-align: center;
     font-family: Btitr;
-    font-size:15px;
+    font-size:10px;
     margin-top: 10px;
     
 }
@@ -419,10 +427,18 @@ height: 90%;
     width: 2em;
     height: 2em;
 }
+.footer-img:hover{
+  box-shadow: 1px 1px 3px 1px #db7b76;
+  border-radius:30%;
+}
 .linkss{
-  color: #17a2b8;
+  background-color: rgb(248, 236, 72);
+  color: black;
+  border-radius: 10px;
+  margin-bottom: 5px;
 }
 .linkss:hover{
+  background:#aaaa04;
   text-decoration: none;
 }
 label{
@@ -438,4 +454,17 @@ label{
 .corder-hicoda {
   margin-top: 0;
   margin-bottom: 0; 
+}
+#topbutton{
+    width: 50px;
+    height: 50px;
+    background-color: #FFCF00;
+    border-radius: 10px;
+    border: 1px solid #9E0202;
+    position: fixed;
+    bottom: 5px;
+    right: 10px
+}
+#topbutton:hover{
+  box-shadow: 1px 1px 3px 1px #db7b76;
 }
