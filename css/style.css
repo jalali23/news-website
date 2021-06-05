@@ -124,7 +124,7 @@ ul{
  
 }
 .responsive-menu ul :hover{
-  background:  #c90c0c;
+  background:  #0051a9;
   border-radius: 15px;
   
 }
@@ -136,7 +136,7 @@ ul{
   width: 100%;
   height: 45px;
   margin: 0 auto; 
-  box-shadow: 0px 1px 5px 3px rgb(150, 55, 48);
+  box-shadow: 2px -1px 2px 1px rgb(150 55 48);
 }
 .menu .search-button{
   float: left;
@@ -258,20 +258,22 @@ h6{
   margin-top: 103px;
 }
 .card-news{
-  background: #1D9587;
-  border-radius:15px;
+  background-color: white;
+  border-radius: 20px; 
+  border-color: transparent;
   margin-left: 2px;
-  border: 4px Ridge #051724;
-  box-shadow: 2px 2px 5px 3px #4A5DC3;
   margin-right: 5px;
-
+  border:3px solid rgb(3, 135, 243);
 }
 .news-title{
   word-wrap: break-word;
 }
 .title{
   font-weight: bold;
-  color: rgb(2, 21, 129);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
 }
 p.card-text{
   text-align: justify;
@@ -279,15 +281,16 @@ p.card-text{
 }
 .arshiv:hover{
   text-decoration: none;
+  color: rgb(32, 21, 21);
 }
 .main2{
-  background: #C9C930;
+  background-image: linear-gradient(to bottom, #4e99ea, #1e90ff7a );
   border-radius: 20px;
-  border-bottom: 2px Ridge #9E0202;
+  border-bottom: 2px Ridge #000000;
 
 }
 .main2:hover{
-  box-shadow: 2px 2px 5px 3px #db7b76;
+  box-shadow: 0px 2px 7px 2px #2a8af7;
 }
 .other_news{
   height:250px;
@@ -311,10 +314,11 @@ video{
   border-radius:15px;
   margin-top:104px;
   height:600px;
-  box-shadow: 2px 2px 5px 3px rgb(150, 55, 48);
+  box-shadow:0px 2px 3px 3px rgb(46 163 192);
 }
+
 .bg-top{
-  background: #9E0202;
+  background: #0051a9;
   border-top-right-radius:15px ;
   border-top-left-radius:15px ;
 
@@ -345,16 +349,15 @@ div.card-body p{
   text-align: justify;
 }
 .footer{
-  background:#9E0202;
+  background-image: linear-gradient(to bottom, #0a1e33, #1e90ffd9 );
 }
 .card {
+  box-shadow: 2px 3px 3px 3px rgb(46 163 192);
+  border-radius: 20px;
+  border-color: transparent;
   min-width: 0px;
-  background: rgb(240, 239, 239);
   background-clip: border-box;
-  border-radius: 25px;
-  box-shadow: 3px 3px 7px 4px #0F1E02;
-  background: #5fd153 ;
-  border: 3px solid green;
+  background: #def7f7;
 }
 
 .news-more{
@@ -384,7 +387,7 @@ div.card-body p{
  }
 .arshiv{
   word-wrap: break-word;
-  color: indigo;
+  color: rgb(0, 0, 0);
   font-weight: bold;
 }
 .main00{
@@ -401,13 +404,14 @@ div.card-body p{
 .conect{
   background:#C9C930;
   border: #FFCF00;
-  box-shadow: 1px 1px 4px 2px rgb(218, 185, 3);
+ 
   border-radius: 20px;
   width: 50%;
   font-weight: bold;
 }
 .conect:hover{
-  background:#aaaa04;
+  background:#d1d111;
+  box-shadow: 1px 1px 4px 2px rgb(218, 185, 3);
 }
 .related{
   text-align: center;
@@ -422,7 +426,15 @@ height: 90%;
 .more {
   font-weight: lighter;
   color: black;
+  line-height: 1.9;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 3px 3px rgb(46 163 192);
+  padding: 5px;
+  background: #def7f7;
 }
+
 .footer-img{
     width: 2em;
     height: 2em;
@@ -445,10 +457,10 @@ label{
       color: black;
 }
 .fa-heart{
-   color: #FFCF00;
+   color:#ff0000;
 }
 .hicoda{
-  color:#e6e011;
+  color:#fff700;
   
 }
 .corder-hicoda {
@@ -467,4 +479,25 @@ label{
 }
 #topbutton:hover{
   box-shadow: 1px 1px 3px 1px #db7b76;
+}
+.time{
+  font-weight: bold;
+}
+.date{
+  border-radius: 10px;
+  box-shadow:0px 2px 3px 3px var(--green);
+  padding: 3px;
+}
+.modal-content{
+  
+    padding: 3px;
+    border-radius: 25px;
+}
+#button-email{
+  background: var(--primary);
+  border-radius: 15px;
+}
+#button-email:hover{
+  background:#17a2b8;
+  border-radius: 15px;
 }
